@@ -7,6 +7,7 @@ class AbdulApp(App):
     def compose(self) -> ComposeResult:
         yield Footer()
         yield Button("Hi")
+        yield Static("New changes")
         
 if __name__ == "__main__":
     AbdulApp().run()
